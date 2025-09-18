@@ -14,11 +14,11 @@ const ResumeCard: ({resume}:{resume: any}) => JSX.Element = ({resume}:{resume:Re
     </h3>
     </div>
     <div className="flex-shrink-0">
-        <ScoreCircle score={resume.feedback.overallScore}></ScoreCircle>
+        <ScoreCircle score={resume.feedback?.overallScore ?? 0}></ScoreCircle>
     </div>
 
 </div>
-<div className="gradint-border animate-in fade-in duration-1000">
+<div className="gradient-border animate-in fade-in duration-1000">
 
 
     <div className="w-full h-full">
