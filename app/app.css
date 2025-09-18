@@ -121,7 +121,7 @@ form {
 }
 
 @utility text-gradient {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#AB8C95] via-[#000000] to-[#8E97C5];
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#9bb8cf] via-[#000000] to-[#698be7];
 }
 
 @utility gradient-hover {
@@ -129,7 +129,7 @@ form {
 }
 
 @utility primary-gradient {
-  background: linear-gradient(to bottom, #faa7bf, #606beb);
+  background: linear-gradient(to bottom, #0094ff, #0012ff);
   box-shadow: 0px 74px 21px 0px #6678ef00;
 }
 
